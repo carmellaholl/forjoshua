@@ -27,8 +27,10 @@ img {
 .txtwrapper {
     padding-top: 10px;
     padding-bottom: 14px;
-
+    font-size: 20px;
 }
+
+
 
 .twowrapper {
     display: grid;

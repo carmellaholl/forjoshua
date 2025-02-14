@@ -69,8 +69,16 @@
                 const minutes = Math.floor((elapsed % (1000 * 60 * 60)) / (1000 * 60));
                 const seconds = Math.floor((elapsed % (1000 * 60)) / 1000);
 
+
                 document.getElementById("clock").innerText =
-                    `        you've been making me the luckiest person in the world for ...${days}d ${hours}h ${minutes}m ${seconds}s`;
+                    `you've been making me the luckiest person in the world for ...${days}d ${hours}h ${minutes}m ${seconds}s`;
+
+                document.getElementById("clock").style.marginLeft = '170px';
+
+                document.getElementById("clock").style.font = "22px serif";
+
+
+
             }
 
             setInterval(updateClock, 1000);
