@@ -65,6 +65,12 @@ img {
     row-gap: 10px;
 }
 
+.eightwrapper img {
+    max-width: 100%;
+    /* Prevents overflow */
+    height: auto;
+    /* Maintain aspect ratio */
+}
 
 .threewrapper {
     display: grid;
