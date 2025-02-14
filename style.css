@@ -33,7 +33,7 @@ img {
 .twowrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 15em;
+    grid-auto-rows: 20em;
     row-gap: 50px;
 }
 
@@ -44,11 +44,25 @@ img {
     row-gap: 50px;
 }
 
+.fivewrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 15em;
+    row-gap: 2px;
+}
+
 .sevenwrapper {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-auto-rows: 15em;
     row-gap: 50px;
+}
+
+.eightwrapper {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-auto-rows: 15em;
+    row-gap: 10px;
 }
 
 
