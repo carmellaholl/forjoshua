@@ -4,36 +4,136 @@
 <head>
     <meta charset="utf-8" />
     <title>My landing page</title>
+    <link rel="icon" type="image/x-icon" href="../images/tumblr_23c83ca6d9e8173773c2e165d2c011a1_eb9f9b46_640.png">
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
 
-<body style="background-image: url(../images/landing_background.jpg); backdrop-filter: blur(5px);">
+<body style="background-color: #fbfaf3;">
     <div class="mainwrapper">
-        <div class="userbox">
-            <img src=" ../images/dog.png" alt="">
-            <p style="padding-top: 30px; padding-left: 36px;">Main User</p>
+
+        <div class="sevenwrapper">
+            <img src=" ../images/IMG_0376.jpeg" alt="">
+
+            <img style="height:20px; width:auto; margin-top: 100px; margin-left: 50px;"
+                src=" ../images/tumblr_inline_mtulcvjfHB1qaw0bs540.gif" alt="">
+
+            <iframe style="border-radius:12px"
+                src="https://open.spotify.com/embed/playlist/27aRAfMPv9vYtytE5DPoGF?utm_source=generator" width="100%"
+                height="352" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"></iframe>
+
+            <img style="height:20px; width:auto; margin-top: 100px; margin-left: 50px;"
+                src=" ../images/tumblr_lngpm936rJ1qfel73540.gif" alt="">
+
+            <img src=" ../images/IMG_1539.jpeg" alt="">
+
+
+            <img src=" ../images/IMG_5144.jpeg" alt="">
+
         </div>
-        <div class="continuebox">
-            <a href="home.html">click here for the home page </a>
+
+        <div>
+            words words words
         </div>
-        <div class="bottombox">
-            <span>
-                <div class="innerbox1">
-                    <img style="float: left; " src="../images/another_dog.png" alt="">
-                    <p style="padding-left:75px; padding-top: 20px;  min-width: 100px;"">Main User</p>
-                </div>
-            </span>
 
-            <span>
+        <div class="threewrapper">
+            <img src=" ../images/IMG_1712.jpeg" alt="">
+            <img src=" ../images/IMG_1811.jpeg" alt="">
+            <img src=" ../images/IMG_2466.jpeg" alt="">
 
-                <div class=" innerbox2">
-                        <img style="float: left; " src="../images/cat_image.png" alt="">
-                    <p style="padding-left:75px; padding-top: 20px;  min-width: 100px;"> Other User</p>
 
-                </div>
-            </span>
+        </div>
 
+        <div>
+            words words words
+            <h1 style="background-color:#fbfaf3;font-size: 15px"></h1>
+            <div id="clock">Loading...</div>
+            <script>
+
+                function updateClock() {
+                    const startTime = new Date("February 17, 2023 19:21:00").getTime();
+                    const now = new Date().getTime();
+                    const elapsed = now - startTime;
+
+                    const days = Math.floor(elapsed / (1000 * 60 * 60 * 24));
+                    const hours = Math.floor((elapsed % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    const minutes = Math.floor((elapsed % (1000 * 60 * 60)) / (1000 * 60));
+                    const seconds = Math.floor((elapsed % (1000 * 60)) / 1000);
+
+                    document.getElementById("clock").innerText =
+                        `${days}d ${hours}h ${minutes}m ${seconds}s`;
+                }
+
+                setInterval(updateClock, 1000);
+                updateClock(); 
+            </script>
+
+        </div>
+
+        <div class="threewrapper">
+
+            <img src=" ../images/IMG_5146.jpeg" alt="">
+            <img src=" ../images/IMG_5147.jpeg" alt="">
+            <img src=" ../images/IMG_7481.jpeg" alt="">
+
+
+        </div>
+
+        <div>
+            and if you ever ned a pick me up..
+            ♡ click here ♡
+            <p style="text-align:right" id="compliment"></p>
+
+
+            <script>
+
+                const compList = [
+                    "Your smile is so cute ♡",
+                    "I love your dimples ♡",
+                    "You are so handsome!",
+                    "Your outfits are always sooo good!",
+                    "I love you!",
+                    "You make me so happy",
+                    "You're so persistent!",
+                    "You're so kind",
+                    "You are intelligent!",
+                    "You are so charming",
+                    "You are a joy to be around",
+                    "You're such a good boyfriend",
+                    "You're a great friend"
+                ];
+
+                function generateCompliment() {
+                    const randomCompliment = compList[Math.floor(Math.random() * compList.length)];
+                    document.getElementById("compliment").textContent = randomCompliment;
+                }
+            </script>
+        </div>
+
+
+        <div class="fourwrapper">
+
+            <iframe width="500" height="500" style="border:3px solid black; margin:auto; display:block" frameborder="0"
+                src="https://crosswordlabs.com/embed/anniv-933"></iframe> <img src=" ../images/IMG_5137.jpeg" alt="">
+            <img src=" ../images/IMG_5138.jpeg" alt="">
+            <img src=" ../images/IMG_5141.jpeg" alt="">
+        </div>
+
+        <div>
+            words words words
+        </div>
+
+        <div class="threewrapper">
+            <img src=" ../images/IMG_3035.jpeg" alt="">
+            <img src=" ../images/IMG_3185.jpeg" alt="">
+            <img src=" ../images/IMG_3643.jpeg" alt="">
+
+        </div>
+
+        <div>
+            words words words
         </div>
     </div>
 
