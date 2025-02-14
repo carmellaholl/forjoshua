@@ -24,6 +24,19 @@ img {
     row-gap: 50px;
 }
 
+.txtwrapper {
+    padding-top: 10px;
+    padding-bottom: 14px;
+
+}
+
+.twowrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 15em;
+    row-gap: 50px;
+}
+
 .fourwrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -31,10 +44,17 @@ img {
     row-gap: 50px;
 }
 
+.sevenwrapper {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-auto-rows: 15em;
+    row-gap: 50px;
+}
+
 
 .threewrapper {
     display: grid;
-    grid-template-columns: 3, 1fr;
+    grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 15em;
     row-gap: 50px;
 }
